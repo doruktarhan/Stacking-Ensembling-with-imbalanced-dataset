@@ -5,6 +5,9 @@ In this project I have used lots of classification methods such as XGboost, ligh
 
 The main goal is to decreases the logloss error as much as possible 
 
+I have zipped the data, so that it must be unzipped before running the scripts. 
+
+
 Data consists of 9 class and 60k samples with more than 100 faeatures so preproceessing must be done before training also. 
 
 After the preproccesing is done, I have splitted the data as train and validation sets by arranging the class numbers since the data has imbalanced dataset. The preprocessing is odne in feature_eng.py
